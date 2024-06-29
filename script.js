@@ -7,7 +7,7 @@ const projectArea = document.getElementById("projects")
 resumeButton.addEventListener("click", () => {
 
     const link = document.createElement('a');
-    const resumePath = "../Portfolio-1/assests/resumegithub.pdf";
+    const resumePath = "assests/resumegithub.pdf";
     link.href = resumePath;
     link.download = "resumegithub.pdf"
     link.click();
